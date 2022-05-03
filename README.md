@@ -9,8 +9,8 @@ To better understand the results of this change, we analyzed interests attached 
 ## Data
 The `data/` directory contains two csv files with data from the story.
 
-1. `facebook_removed_interests.csv` contains Facebook's ad interests that are no longer available as of April 14, 2022.
-2. `facebook_audience_overlaps.csv` contains Facebook's audience size estimates for pairs of interests with strong overlaps in users. These counts were collected from Meta's ad tool on January 7, 2022. Overlaps are calculated as follows:
+1. `fb_removed_interests.csv` contains Facebook's ad interests that are no longer available as of April 14, 2022.
+2. `fb_audience_overlaps.csv` contains Facebook's audience size estimates for pairs of interests with strong overlaps in users. These counts were collected from Meta's ad tool on January 7, 2022. Overlaps are calculated as follows:
 - The low audience range for interest 1 is collected from Facebook's ad tool.
 - The low audience range for interest 2 is collected from Facebook's ad tool.
 - Interest 1 and interest 2 are combined in Facebook's ad tool to find the low audience range for the union of these interests.
