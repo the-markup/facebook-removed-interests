@@ -1,5 +1,6 @@
-# Citizen Browser: Facebook Said 
-This repository contains data from the story "[Title to come](https://themarkup.org/)" from The Markup's [Citizen Browser](https://themarkup.org/citizen-browser/) series. For more information about how the Citizen Browser application was built and the Facebook data it collects, see "[How We Built a Facebook Inspector](https://themarkup.org/citizen-browser/2021/01/05/how-we-built-a-facebook-inspector)."
+# Citizen Browser: Facebook Promised to Remove “Sensitive” Ads. Here’s What They Left Behind
+
+This repository contains data from the story "[Facebook Promised to Remove “Sensitive” Ads. Here’s What They Left Behind](https://themarkup.org/)" from The Markup's [Citizen Browser](https://themarkup.org/citizen-browser/) series. For more information about how the Citizen Browser application was built and the Facebook data it collects, see "[How We Built a Facebook Inspector](https://themarkup.org/citizen-browser/2021/01/05/how-we-built-a-facebook-inspector)."
 
 ## Context
 Facebook provides advertisers a targeting option called "[detailed targeting](https://www.facebook.com/business/help/182371508761821?id=176276233019487)" to refine groups of people by demographics, interests, and behaviors based on their activities through the platform. In a 2021 statement, Meta said that, starting in mid-January 2022, they would cut back on this detailed targeting and remove the ability for advertisers to target users based on certain interests that describe health, race or ethnicity, political affiliation, religion, or sexual orientation.
