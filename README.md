@@ -15,7 +15,7 @@ In late October 2021, before Facebook removed any interest-targeting options, we
 ![AfricanAmericanCulture-suggestions2x](https://user-images.githubusercontent.com/821717/167681695-76554405-2fc4-48ac-a9d9-7677cfd472dc.png)
 
 
-**Collecting Audience Size:**
+### Collecting Audience Size:
 
 Between late October 2021 and early January 2022, we found the audience size of each interest identified through the methods above using Facebook’s Ad Manager tool. 
 * We collected Facebook’s low-end and high-end estimate for the number of users with interest #1, using the company’s ad tool.
@@ -42,18 +42,18 @@ Between late October 2021 and early January 2022, we found the audience size of 
 <p>&nbsp;</p>
 
 
-**Calculating Overlaps:** 
+### Calculating Overlaps:
 
 To measure the similarity between an interest and its suggested interest, we calculated the overlaps as follows:
 * We calculated the midpoint between the high and low audience estimate of each of these audience estimates. 
-* We estimated the overlap by subtracting the union of the two interests from the sum of  the two interests’s audiences when queried separately.
+* We estimated the intersection by subtracting audiences for the union of the two interests from the sum of the two interests when queried separately.
   - **Sum** of interest #1 + interest #2 = 34,700,000
   - **Union** of interest #1 and interest #2 = 25,200,000
   - **Intersection** = Sum - Union = 9,500,000
   - **Overlap with interest #1** = intersection/interest #1. The audience for interest 1 overlaps 45% with interest 2
   - **Overlap with interest #2** = intersection/interest #2. The audience for interest 2 overlaps 70% with interest 1
 
-**Identifying Removed Interests**
+### Identifying Removed Interests
 
 We queried the Facebook ad tool in April 2022, after Facebook’s changes took effect, to determine which of the interests we collected are no longer available.
 
