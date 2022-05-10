@@ -76,8 +76,9 @@ The data/ directory contains two CSV files with data from the story.
 | aud_high_est      | High range of Facebook's estimated audience size. Missing values reflect interests that were not queried in Facebook’s Ad Manager. |
 | date_aud_test      | Date the audience size estimate was collected for interests that were queried in the Facebook Ad Manager.|
 | seen_in_CB      | A yes/no flag indicating whether advertisers used the interest to target  ads shown to users in The Markup's Citizen Browser panel between March 16, 2021, and April 30, 2022.  |
-| unique_advertiser      | Number of unique advertisers in the Citizen Browser dataset who used this interest to target Facebook ads between March 16, 2021, and April 30, 2022. |
 | unique_user      | Number of unique Citizen Browser panelists who were shown ads with this targeted interest between March 16, 2021, and April 30, 2022. |
+| unique_advertiser      | Number of unique advertisers in the Citizen Browser dataset who used this interest to target Facebook ads between March 16, 2021, and April 30, 2022. |
+
 
 
     
