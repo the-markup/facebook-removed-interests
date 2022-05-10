@@ -9,9 +9,7 @@ To better understand the results of this change, we analyzed the “interests”
 
 From this collection, we queried the Facebook ad tool on April 14, 2022, after the removal took place, to determine which of the interests we collected are no longer available.
 
-
-![AfricanAmericanCulture-suggestions](https://user-images.githubusercontent.com/821717/167681343-bfbab312-6e24-4b7d-8040-093046282116.png)
-
+![AfricanAmericanCulture-suggestions2x](https://user-images.githubusercontent.com/821717/167681695-76554405-2fc4-48ac-a9d9-7677cfd472dc.png)
 
 ## Data
 The `data/` directory contains two csv files with data from the story.
