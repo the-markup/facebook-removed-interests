@@ -1,16 +1,16 @@
-# Citizen Browser: Facebook Promised to Remove “Sensitive” Ads. Here’s What They Left Behind
+# Citizen Browser: Facebook Promised to Remove “Sensitive” Ads. Here’s What It Left Behind
 
-This repository contains data from the story "[Facebook Promised to Remove “Sensitive” Ads. Here’s What They Left Behind](https://themarkup.org/)" from The Markup's [Citizen Browser](https://themarkup.org/citizen-browser/) series. For more information about how the Citizen Browser application was built and the Facebook data it collects, see "[How We Built a Facebook Inspector](https://themarkup.org/citizen-browser/2021/01/05/how-we-built-a-facebook-inspector)."
+This repository contains data from the story "[Facebook Promised to Remove “Sensitive” Ads. Here’s What It Left Behind](https://themarkup.org/)" from The Markup's [Citizen Browser](https://themarkup.org/citizen-browser/) series. For more information about how the Citizen Browser application was built and the Facebook data it collects, see "[How We Built a Facebook Inspector](https://themarkup.org/citizen-browser/2021/01/05/how-we-built-a-facebook-inspector)."
 
 ## Context
-Facebook provides advertisers an ad-targeting option called "detailed targeting" to refine groups of people by demographics, interests, and behaviors based on their activities through the platform. **In a 2021 statement, Meta said that they would cut back on this detailed targeting and remove the ability for advertisers to target users based on certain interests that describe health, race or ethnicity, political affiliation, religion, or sexual orientation.** These changes took effect from mid-January 2022 to March 17, 2022.
+Facebook provides advertisers an ad-targeting option called "detailed targeting" to refine groups of people by demographics, interests, and behaviors based on their activities through the platform. **In a 2021 statement, Meta said that it would cut back on this detailed targeting and remove the ability for advertisers to target users based on certain interests that describe health, race or ethnicity, political affiliation, religion, or sexual orientation.** These changes took effect from mid-January 2022 to March 17, 2022.
 
 
 ## Data
 
-In March 2021 we began collecting detailed targeting information from ads shown to our Citizen Browser panel. From March 16, 2021 through April 30, 2022, we collected over 21 thousand interests from over 270 thousand ads shown to over 2,000 participants.
+In March 2021 we began collecting detailed targeting information from ads shown to our Citizen Browser panel. From March 16, 2021, through April 30, 2022, we collected more than 21 thousand interests from more than 270 thousand ads shown to more than 2,000 participants.
 
-In late October 2021, before Facebook removed any interest-targeting options, we started compiling a list of potentially sensitive terms in our dataset, such as “Diabetes mellitus awareness” and “Adult Children of Alcoholics.” We also collected a list of terms that Facebook’s tools recommended to advertisers when they entered one of these potentially sensitive terms — for example, the company suggested “BET” and “Essence (magazine)” when advertisers searched for “African-American culture” (screen capture below).
+In late October 2021, before Facebook removed any interest-targeting options, we started compiling a list of potentially sensitive terms in our dataset, such as “Diabetes mellitus awareness” and “Adult Children of Alcoholics.” We also collected a list of terms that Facebook’s tools recommended to advertisers when they entered one of these potentially sensitive terms—for example, the company suggested “BET” and “Essence (magazine)” when advertisers searched for “African-American culture” (screen capture below).
 
 ![AfricanAmericanCulture-suggestions2x](https://user-images.githubusercontent.com/821717/167681695-76554405-2fc4-48ac-a9d9-7677cfd472dc.png)
 
@@ -75,9 +75,9 @@ The data/ directory contains two CSV files with data from the story.
 | aud_low_est      | Low range of Facebook's estimated audience size. Missing values reflect interests that were not queried in Facebook’s Ad Manager.  |
 | aud_high_est      | High range of Facebook's estimated audience size. Missing values reflect interests that were not queried in Facebook’s Ad Manager. |
 | date_aud_test      | Date the audience size estimate was collected for interests that were queried in the Facebook Ad Manager.|
-| seen_in_CB      | A yes/no flag indicating whether advertisers used the interest to target  ads shown to users in The Markup's Citizen Browser panel between March 16, 2021 and April 30, 2022.  |
-| unique_advertiser      | Number of unique advertisers in Citizen Browser dataset who used this interest to target Facebook ads between March 16, 2021 and April 30, 2022. |
-| unique_user      | Number of unique Citizen Browser panelists who were shown ads with this targeted interest between March 16, 2021 and April 30, 2022. |
+| seen_in_CB      | A yes/no flag indicating whether advertisers used the interest to target  ads shown to users in The Markup's Citizen Browser panel between March 16, 2021, and April 30, 2022.  |
+| unique_advertiser      | Number of unique advertisers in the Citizen Browser dataset who used this interest to target Facebook ads between March 16, 2021, and April 30, 2022. |
+| unique_user      | Number of unique Citizen Browser panelists who were shown ads with this targeted interest between March 16, 2021, and April 30, 2022. |
 
 
     
@@ -95,8 +95,8 @@ The data/ directory contains two CSV files with data from the story.
 | int2_aud_low | Facebook's low audience estimate for interest_2 |
 | int2_aud_mid | Calculated midpoint of the low and high audience counts of interest 2 |
 | int2_aud_high | Facebook's high audience estimate for interest_2 |
-| union_aud_low | Facebook's low audience estimate for the union of  interest_1 and interest_2|
+| union_aud_low | Facebook's low audience estimate for the union of interest_1 and interest_2|
 | union_aud_high | Facebook's high audience estimate for the union of interest_1 and interest_2 |
-| aud_intersect | Result of subtracting the midpoint of audience estimates for the union of interest 1 and interest 2 from the independent sums of the midpoint for the audience estimates of  interest_1 and interest_2  |
+| aud_intersect | Result of subtracting the midpoint of audience estimates for the union of interest 1 and interest 2 from the independent sums of the midpoint for the audience estimates of interest_1 and interest_2  |
 
 
