@@ -53,6 +53,7 @@ To measure the similarity between an interest and its suggested interest, we cal
   - **Overlap with interest #1** = intersection/interest #1. The audience for interest 1 overlaps 45% with interest 2
   - **Overlap with interest #2** = intersection/interest #2. The audience for interest 2 overlaps 70% with interest 1
 
+<p>&nbsp;</p>
 ### Identifying Removed Interests
 
 We queried the Facebook ad tool in April 2022, after Facebook’s changes took effect, to determine which of the interests we collected are no longer available.
