@@ -9,7 +9,7 @@ To better understand the results of this change, we analyzed the “interests”
 
 From this collection, we queried the Facebook ad tool on April 14, 2022, after the removal took place, to determine which of the interests we collected are no longer available.
 
-<img width="600" alt="Facebook Ads Manager suggested interests for African-American culture" src="https://user-images.githubusercontent.com/821717/167515006-081f8392-dfe7-4dc2-b4ab-2590c4cadbd7.png">
+| <img width="600" alt="Facebook Ads Manager suggested interests for African-American culture" src="https://user-images.githubusercontent.com/821717/167515006-081f8392-dfe7-4dc2-b4ab-2590c4cadbd7.png"> | annotation here |
 
 
 ## Data
