@@ -9,7 +9,9 @@ To better understand the results of this change, we analyzed the “interests”
 
 From this collection, we queried the Facebook ad tool on April 14, 2022, after the removal took place, to determine which of the interests we collected are no longer available.
 
-| <img width="600" alt="Facebook Ads Manager suggested interests for African-American culture" src="https://user-images.githubusercontent.com/821717/167515006-081f8392-dfe7-4dc2-b4ab-2590c4cadbd7.png"> | annotation here |
+<table>
+<tr>
+  <td><img width="600" alt="Facebook Ads Manager suggested interests for African-American culture" src="https://user-images.githubusercontent.com/821717/167515006-081f8392-dfe7-4dc2-b4ab-2590c4cadbd7.png"></td><td>annotation here</td></tr></table>
 
 
 ## Data
@@ -36,7 +38,7 @@ Data in fb_removed_interests.csv is arranged as follows:
 | seen_in_CB      | Ad interest appeared in a targeted ad in The Markup's Citizen Browser panel.  |
 | unique_posters      | Number of unique advertisers in Citizen Browser dataset who targeted Facebook ads with this interest between March 16, 2021 and April 19, 2022.*  |
 | unique_user      | Number of unique Citizen Browser panelists who were shown ads with this targeted interest between March 16, 2021 and April 19, 2022.  |
-/* These counts may undercount posters where the poster name was redacted due to privacy protections of the Citizen Browser parsers.
+
 
 Data in fb_audience_overlaps.csv is arranged as follows:
 | column           | description                                                                                  |
