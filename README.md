@@ -20,6 +20,8 @@ The `data/` directory contains two csv files with data from the story.
 - We repeated that process for interest #2. 
 - We queried the combination of interest #1 and interest #2 in Facebook's ad tool, which produces a high and low estimate of the number of users at the union of the two interests.
 - We estimated the overlap by subtracting Facebook's low-end estimate for the union of the two interests from the sum of its low-end estimates for the two interests when queried separately.
+- 
+![diabetes_union](https://user-images.githubusercontent.com/821717/167686509-34de0601-80c6-4561-a769-0a153543a925.png)
 
 
 -----
