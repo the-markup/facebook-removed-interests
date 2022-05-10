@@ -25,21 +25,21 @@ Between late October 2021 and early January 2022, we found the audience size of 
 
 <table>
   <tr>
-    <td><img src="https://user-images.githubusercontent.com/821717/167702953-5918fc29-7b7b-4eb1-8515-6e63872d8ab4.png" width="500"><br/>
-    Audience size range for “Diabetes melitus awareness” is 19,400,000 to 22,800,000. The midpoint of this range is 21,100,000.</td>
-    <td><img src="https://user-images.githubusercontent.com/821717/167702972-b7657f44-382c-4180-895c-9e7bda18bdf2.png" width="500"><br/>
-    Audience size range for “Diabetes melitus type 2 awareness” is 12,500,000 to 14,700,000. The midpoint of this range is 13,600,000.</td>
+    <td width="50%"><img src="https://user-images.githubusercontent.com/821717/167702953-5918fc29-7b7b-4eb1-8515-6e63872d8ab4.png" height="500"><br/>
+    <small>Audience size range for “Diabetes melitus awareness” is 19,400,000 to 22,800,000. The midpoint of this range is 21,100,000.</small></td>
+    <td width="50%"><img src="https://user-images.githubusercontent.com/821717/167702972-b7657f44-382c-4180-895c-9e7bda18bdf2.png" height="500"><br/>
+    <small>Audience size range for “Diabetes melitus type 2 awareness” is 12,500,000 to 14,700,000. The midpoint of this range is 13,600,000.</small></td>
   </tr>
   <tr>
-    <td><img src="https://user-images.githubusercontent.com/821717/167702985-6b70737b-826a-4fd0-9a75-e26298ae3726.png" width="500"><br/>
-    Audience size range for union of “Diabetes melitus awareness” and “Diabetes melitus type 2 awareness” is 23,300,000 to 27,100,000. The midpoint of this range is 25,200,000.</td>
+    <td width="50%"><img src="https://user-images.githubusercontent.com/821717/167702985-6b70737b-826a-4fd0-9a75-e26298ae3726.png" height="500"><br/>
+    <figure>Audience size range for union of “Diabetes melitus awareness” and “Diabetes melitus type 2 awareness” is 23,300,000 to 27,100,000. The midpoint of this range is 25,200,000.</figure></td>
     
   </tr>
   </table>
 
 
 
-
+<p>&nbsp;</p>
 
 
 **Calculating Overlaps:** 
@@ -63,7 +63,7 @@ The data/ directory contains two CSV files with data from the story.
 2. `fb_audience_overlaps.csv` contains Facebook's audience size estimates for selected pairs of interests with strong overlaps in users. 
 
 
-    
+<p>&nbsp;</p>
     
 
 **Data in 'fb_removed_interests.csv' is arranged as follows:**
@@ -79,7 +79,7 @@ The data/ directory contains two CSV files with data from the story.
 
 
     
-    
+<p>&nbsp;</p>  
 
 
 **Data in 'fb_audience_overlaps.csv' is arranged as follows:**
