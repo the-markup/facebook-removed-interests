@@ -16,6 +16,7 @@ In late October 2021, before Facebook removed any interest-targeting options, we
 
 
 **Collecting Audience Size:**
+
 Between late October 2021 and early January 2022, we found the audience size of each interest identified through the methods above using Facebook’s Ad Manager tool. 
 * We collected Facebook’s low-end and high-end estimate for the number of users with interest #1, using the company’s ad tool.
 * We repeated that process for interest #2. 
@@ -24,11 +25,14 @@ Between late October 2021 and early January 2022, we found the audience size of 
 
 <table>
   <tr>
-    <td><img src="https://user-images.githubusercontent.com/821717/167702953-5918fc29-7b7b-4eb1-8515-6e63872d8ab4.png" width="500"></td>
-    <td><img src="https://user-images.githubusercontent.com/821717/167702972-b7657f44-382c-4180-895c-9e7bda18bdf2.png" width="500"></td>
+    <td><img src="https://user-images.githubusercontent.com/821717/167702953-5918fc29-7b7b-4eb1-8515-6e63872d8ab4.png" width="500"><br/>
+    Audience size range for “Diabetes melitus awareness” is 19,400,000 to 22,800,000. The midpoint of this range is 21,100,000.</td>
+    <td><img src="https://user-images.githubusercontent.com/821717/167702972-b7657f44-382c-4180-895c-9e7bda18bdf2.png" width="500"><br/>
+    Audience size range for “Diabetes melitus type 2 awareness” is 12,500,000 to 14,700,000. The midpoint of this range is 13,600,000.</td>
   </tr>
   <tr>
-    <td><img src="https://user-images.githubusercontent.com/821717/167702985-6b70737b-826a-4fd0-9a75-e26298ae3726.png" width="500"></td>
+    <td><img src="https://user-images.githubusercontent.com/821717/167702985-6b70737b-826a-4fd0-9a75-e26298ae3726.png" width="500"><br/>
+    Audience size range for union of “Diabetes melitus awareness” and “Diabetes melitus type 2 awareness” is 23,300,000 to 27,100,000. The midpoint of this range is 25,200,000.</td>
     
   </tr>
   </table>
@@ -38,7 +42,8 @@ Between late October 2021 and early January 2022, we found the audience size of 
 
 
 
-**Calculating Overlaps:**
+**Calculating Overlaps:** 
+
 To measure the similarity between an interest and its suggested interest, we calculated the overlaps as follows:
 * We calculated the midpoint between the high and low audience estimate of each of these audience estimates. 
 * We estimated the overlap by subtracting the union of the two interests from the sum of  the two interests’s audiences when queried separately.
@@ -49,6 +54,7 @@ To measure the similarity between an interest and its suggested interest, we cal
   - **Overlap with interest #2** = intersection/interest #2. The audience for interest 2 overlaps 70% with interest 1
 
 **Identifying Removed Interests**
+
 We queried the Facebook ad tool in April 2022, after Facebook’s changes took effect, to determine which of the interests we collected are no longer available.
 
 The data/ directory contains two CSV files with data from the story.
