@@ -97,6 +97,7 @@ The data/ directory contains two CSV files with data from the story.
 | int2_aud_mid | Calculated midpoint of the low and high audience counts of interest 2 |
 | int2_aud_high | Facebook's high audience estimate for interest_2 |
 | union_aud_low | Facebook's low audience estimate for the union of interest_1 and interest_2|
+| union_aud_mid | Calculated midpoint of the low and high audience counts of the union of interest_1 and interest_2|
 | union_aud_high | Facebook's high audience estimate for the union of interest_1 and interest_2 |
 | aud_intersect | Result of subtracting the midpoint of audience estimates for the union of interest 1 and interest 2 from the independent sums of the midpoint for the audience estimates of interest_1 and interest_2  |
 
