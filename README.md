@@ -17,22 +17,36 @@ In late October 2021, before Facebook removed any interest-targeting options, we
 
 **Collecting Audience Size:**
 Between late October 2021 and early January 2022, we found the audience size of each interest identified through the methods above using Facebook’s Ad Manager tool. 
-- We collected Facebook’s low-end and high-end estimate for the number of users with interest #1, using the company’s ad tool.
-- We repeated that process for interest #2. 
-- We queried the combination of interest #1 and interest #2 in Facebook's ad tool, which produces a high and low estimate of the number of users at the union of the two interests.
+* We collected Facebook’s low-end and high-end estimate for the number of users with interest #1, using the company’s ad tool.
+* We repeated that process for interest #2. 
+* We queried the combination of interest #1 and interest #2 in Facebook's ad tool, which produces a high and low estimate of the number of users at the union of the two interests.
 
----images here
+
+<table>
+  <tr>
+    <td><img src="https://user-images.githubusercontent.com/821717/167702953-5918fc29-7b7b-4eb1-8515-6e63872d8ab4.png" width="500"></td>
+    <td><img src="https://user-images.githubusercontent.com/821717/167702972-b7657f44-382c-4180-895c-9e7bda18bdf2.png" width="500"></td>
+  </tr>
+  <tr>
+    <td><img src="https://user-images.githubusercontent.com/821717/167702985-6b70737b-826a-4fd0-9a75-e26298ae3726.png" width="500"></td>
+    
+  </tr>
+  </table>
+
+
+
+
 
 
 **Calculating Overlaps:**
 To measure the similarity between an interest and its suggested interest, we calculated the overlaps as follows:
-- We calculated the midpoint between the high and low audience estimate of each of these audience estimates. 
-- We estimated the overlap by subtracting the union of the two interests from the sum of  the two interests’s audiences when queried separately.
--- **Sum** of interest #1 + interest #2 = 34,700,000
--- **Union** of interest #1 and interest #2 = 25,200,000
--- **Intersection** = Sum - Union = 9,500,000
--- **Overlap with interest #1** = intersection/interest #1. The audience for interest 1 overlaps 45% with interest 2
--- **Overlap with interest #2** = intersection/interest #2. The audience for interest 2 overlaps 70% with interest 1
+* We calculated the midpoint between the high and low audience estimate of each of these audience estimates. 
+* We estimated the overlap by subtracting the union of the two interests from the sum of  the two interests’s audiences when queried separately.
+  - **Sum** of interest #1 + interest #2 = 34,700,000
+  - **Union** of interest #1 and interest #2 = 25,200,000
+  - **Intersection** = Sum - Union = 9,500,000
+  - **Overlap with interest #1** = intersection/interest #1. The audience for interest 1 overlaps 45% with interest 2
+  - **Overlap with interest #2** = intersection/interest #2. The audience for interest 2 overlaps 70% with interest 1
 
 **Identifying Removed Interests**
 We queried the Facebook ad tool in April 2022, after Facebook’s changes took effect, to determine which of the interests we collected are no longer available.
@@ -43,7 +57,10 @@ The data/ directory contains two CSV files with data from the story.
 2. `fb_audience_overlaps.csv` contains Facebook's audience size estimates for selected pairs of interests with strong overlaps in users. 
 
 
-Data in fb_removed_interests.csv is arranged as follows:
+    
+    
+
+**Data in 'fb_removed_interests.csv' is arranged as follows:**
 | column           | description                                                                                |
 |:-----------------|:------------------------------------------------------------------------------------------|
 | removed_interest   | A Facebook ad interest that was available for targeting at some point between March 2021 and March 2022, but not afterward.|
@@ -55,7 +72,11 @@ Data in fb_removed_interests.csv is arranged as follows:
 | unique_user      | Number of unique Citizen Browser panelists who were shown ads with this targeted interest between March 16, 2021 and April 30, 2022. |
 
 
-Data in fb_audience_overlaps.csv is arranged as follows:
+    
+    
+
+
+**Data in 'fb_audience_overlaps.csv' is arranged as follows:**
 | column           | description                                                                                  |
 |:-----------------|:------------------------------------------------------------------------------------------|
 | interest_1 | Interest removed from Facebook's detailed targeting options between January and April 2022 |                      
