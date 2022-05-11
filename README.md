@@ -15,8 +15,8 @@ In March 2021 we began collecting detailed targeting information from ads shown 
 
 In late October 2021, before Facebook removed any interest-targeting options, we started compiling a list of potentially sensitive terms in our dataset, such as “Diabetes mellitus awareness” and “Adult Children of Alcoholics.” We also collected a list of terms that Facebook’s tools recommended to advertisers when they entered one of these potentially sensitive terms—for example, the company suggested “BET” and “Essence (magazine)” when advertisers searched for “African-American culture” (screen capture below).
 
-![AfricanAmericanCulture-suggestions2x](https://user-images.githubusercontent.com/821717/167681695-76554405-2fc4-48ac-a9d9-7677cfd472dc.png)
-Source: Screen capture of Facebook's Ad Manager tool from October 2021.
+![AfricanAmericanCulture-suggestions2x - Facebook suggests categories such as BET and Root (magazine) along with African-American culture](https://user-images.githubusercontent.com/821717/167681695-76554405-2fc4-48ac-a9d9-7677cfd472dc.png)
+Source: Screen capture of Facebook's Ads Manager tool from October 2021.
 <p>&nbsp;</p>
 
 ### Collecting Audience Size:
@@ -29,13 +29,13 @@ Between late October 2021 and early January 2022, we found the audience size of 
 
 <table>
   <tr>
-    <td width="50%"><img src="https://user-images.githubusercontent.com/821717/167702953-5918fc29-7b7b-4eb1-8515-6e63872d8ab4.png" height="500"><br/>
+    <td width="50%"><img src="https://user-images.githubusercontent.com/821717/167702953-5918fc29-7b7b-4eb1-8515-6e63872d8ab4.png" alt="screen capture for targeting ad on Diabetes melitus awareness through Facebook Ads Manager tool" height="500"><br/>
     <small>Audience size range for “Diabetes melitus awareness” is 19,400,000 to 22,800,000. The midpoint of this range is 21,100,000.</small></td>
-    <td width="50%"><img src="https://user-images.githubusercontent.com/821717/167702972-b7657f44-382c-4180-895c-9e7bda18bdf2.png" height="500"><br/>
+    <td width="50%"><img src="https://user-images.githubusercontent.com/821717/167702972-b7657f44-382c-4180-895c-9e7bda18bdf2.png" alt="screen capture for targeting ad on Diabetes melitus type 2 awareness through Facebook Ads Manager tool" height="500"><br/>
     <small>Audience size range for “Diabetes melitus type 2 awareness” is 12,500,000 to 14,700,000. The midpoint of this range is 13,600,000.</small></td>
   </tr>
   <tr>
-    <td width="50%"><img src="https://user-images.githubusercontent.com/821717/167702985-6b70737b-826a-4fd0-9a75-e26298ae3726.png" height="500"><br/>
+    <td width="50%"><img src="https://user-images.githubusercontent.com/821717/167702985-6b70737b-826a-4fd0-9a75-e26298ae3726.png" alt="screen capture for targeting ad on the union of  Diabetes melitus awareness and Diabetes melitus type 2 awareness through Facebook Ads Manager tool" height="500"><br/>
     <figure>Audience size range for the union of “Diabetes melitus awareness” and “Diabetes melitus type 2 awareness” is 23,300,000 to 27,100,000. The midpoint of this range is 25,200,000.</figure></td>
     
   </tr>
