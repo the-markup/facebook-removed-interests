@@ -32,7 +32,7 @@ Between late October 2021 and early January 2022, we found the audience size of 
   </tr>
   <tr>
     <td width="50%"><img src="https://user-images.githubusercontent.com/821717/167702985-6b70737b-826a-4fd0-9a75-e26298ae3726.png" height="500"><br/>
-    <figure>Audience size range for union of “Diabetes melitus awareness” and “Diabetes melitus type 2 awareness” is 23,300,000 to 27,100,000. The midpoint of this range is 25,200,000.</figure></td>
+    <figure>Audience size range for the union of “Diabetes melitus awareness” and “Diabetes melitus type 2 awareness” is 23,300,000 to 27,100,000. The midpoint of this range is 25,200,000.</figure></td>
     
   </tr>
   </table>
