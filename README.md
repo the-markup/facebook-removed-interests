@@ -40,7 +40,7 @@ Between late October 2021 and early January 2022, we found the audience size of 
     
   </tr>
   </table>
-Source: Screen capture of Facebook's Ad Manager tool from October 2021.
+Source: Screen captures of Facebook's Ad Manager tool from October 2021.
 
 
 <p>&nbsp;</p>
