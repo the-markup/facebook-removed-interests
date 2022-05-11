@@ -47,11 +47,11 @@ Between late October 2021 and early January 2022, we found the audience size of 
 To measure the similarity between an interest and its suggested interest, we calculated the overlaps as follows:
 * We calculated the midpoint between the high and low audience estimate of each of these audience estimates. 
 * We estimated the intersection by subtracting audiences for the union of the two interests from the sum of the two interests when queried separately.
-  - **Sum** of interest #1 + interest #2 = 34,700,000
-  - **Union** of interest #1 and interest #2 = 25,200,000
-  - **Intersection** = Sum - Union = 9,500,000
-  - **Overlap with interest #1** = intersection/interest #1. The audience for interest 1 overlaps 45% with interest 2
-  - **Overlap with interest #2** = intersection/interest #2. The audience for interest 2 overlaps 70% with interest 1
+  - **Sum** of interest #1 + interest #2 = 34,700,000.
+  - **Union** of interest #1 and interest #2 = 25,200,000.
+  - **Intersection** = Sum - Union = 9,500,000.
+  - **Overlap with interest #1** = intersection/interest #1. The audience for interest 1 overlaps 45% with interest 2.
+  - **Overlap with interest #2** = intersection/interest #2. The audience for interest 2 overlaps 70% with interest 1.
 
 <p>&nbsp;</p>
 
@@ -88,17 +88,17 @@ The data/ directory contains two CSV files with data from the story.
 **Data in 'fb_audience_overlaps.csv' is arranged as follows:**
 | column           | description                                                                                  |
 |:-----------------|:------------------------------------------------------------------------------------------|
-| interest_1 | Interest removed from Facebook's detailed targeting options between January and April 2022 |                      
-| interest_2 | Interest suggested by Facebook's ad tool in conjunction with interest_1 before it was removed  |
-| int1_aud_low | Facebook's low audience estimate for interest_1 |
-| int1_aud_mid | Calculated midpoint of the low and high audience counts of interest 1 |
-| int1_aud_high | Facebook's high audience estimate for interest_1 |
-| int2_aud_low | Facebook's low audience estimate for interest_2 |
-| int2_aud_mid | Calculated midpoint of the low and high audience counts of interest 2 |
-| int2_aud_high | Facebook's high audience estimate for interest_2 |
-| union_aud_low | Facebook's low audience estimate for the union of interest_1 and interest_2|
-| union_aud_mid | Calculated midpoint of the low and high audience counts of the union of interest_1 and interest_2|
-| union_aud_high | Facebook's high audience estimate for the union of interest_1 and interest_2 |
-| aud_intersect | Result of subtracting the midpoint of audience estimates for the union of interest 1 and interest 2 from the independent sums of the midpoint for the audience estimates of interest_1 and interest_2  |
+| interest_1 | Interest removed from Facebook's detailed targeting options between January and April 2022. |                      
+| interest_2 | Interest suggested by Facebook's ad tool in conjunction with interest_1 before it was removed.  |
+| int1_aud_low | Facebook's low audience estimate for interest_1. |
+| int1_aud_mid | Calculated midpoint of the low and high audience counts of interest 1. |
+| int1_aud_high | Facebook's high audience estimate for interest_1. |
+| int2_aud_low | Facebook's low audience estimate for interest_2. |
+| int2_aud_mid | Calculated midpoint of the low and high audience counts of interest 2. |
+| int2_aud_high | Facebook's high audience estimate for interest_2. |
+| union_aud_low | Facebook's low audience estimate for the union of interest_1 and interest_2.|
+| union_aud_mid | Calculated midpoint of the low and high audience counts of the union of interest_1 and interest_2.|
+| union_aud_high | Facebook's high audience estimate for the union of interest_1 and interest_2. |
+| aud_intersect | Result of subtracting the midpoint of audience estimates for the union of interest 1 and interest 2 from the independent sums of the midpoint for the audience estimates of interest_1 and interest_2.  |
 
 
