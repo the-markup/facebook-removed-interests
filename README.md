@@ -16,7 +16,7 @@ In March 2021 we began collecting detailed targeting information from ads shown 
 In late October 2021, before Facebook removed any interest-targeting options, we started compiling a list of potentially sensitive terms in our dataset, such as “Diabetes mellitus awareness” and “Adult Children of Alcoholics.” We also collected a list of terms that Facebook’s tools recommended to advertisers when they entered one of these potentially sensitive terms—for example, the company suggested “BET” and “Essence (magazine)” when advertisers searched for “African-American culture” (screen capture below).
 
 ![AfricanAmericanCulture-suggestions2x - Facebook suggests categories such as BET and Root (magazine) along with African-American culture](https://user-images.githubusercontent.com/821717/167681695-76554405-2fc4-48ac-a9d9-7677cfd472dc.png)
-Source: Screen capture of Facebook's Ads Manager tool from October 2021.
+Source: Screen capture of Facebook's Ads Manager tool from January 5, 2022.
 <p>&nbsp;</p>
 
 ### Collecting Audience Size:
@@ -40,7 +40,7 @@ Between late October 2021 and early January 2022, we found the audience size of 
     
   </tr>
   </table>
-Source: Screen captures of Facebook's Ads Manager tool from October 2021.
+Source: Screen captures of Facebook's Ads Manager tool from December 23, 2021.
 
 
 <p>&nbsp;</p>
