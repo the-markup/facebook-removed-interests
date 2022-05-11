@@ -2,9 +2,12 @@
 
 This repository contains data from the story "[Facebook Promised to Remove “Sensitive” Ads. Here’s What It Left Behind](https://themarkup.org/citizen-browser/2022/05/12/facebook-promised-to-remove-sensitive-ads-heres-what-it-left-behind)" from The Markup's [Citizen Browser](https://themarkup.org/citizen-browser/) series. For more information about how the Citizen Browser application was built and the Facebook data it collects, see "[How We Built a Facebook Inspector](https://themarkup.org/citizen-browser/2021/01/05/how-we-built-a-facebook-inspector)."
 
+<p>&nbsp;</p>
+
 ## Context
 Facebook provides advertisers an ad-targeting option called "detailed targeting" to refine groups of people by demographics, interests, and behaviors based on their activities through the platform. **In a 2021 statement, Meta said that it would cut back on this detailed targeting and remove the ability for advertisers to target users based on certain interests that describe health, race or ethnicity, political affiliation, religion, or sexual orientation.** These changes took effect from mid-January 2022 to March 17, 2022.
 
+<p>&nbsp;</p>
 
 ## Data
 
@@ -15,6 +18,7 @@ In late October 2021, before Facebook removed any interest-targeting options, we
 ![AfricanAmericanCulture-suggestions2x](https://user-images.githubusercontent.com/821717/167681695-76554405-2fc4-48ac-a9d9-7677cfd472dc.png)
 Source: Screen capture of Facebook's Ad Manager tool from October 2021.
 <p>&nbsp;</p>
+
 ### Collecting Audience Size:
 
 Between late October 2021 and early January 2022, we found the audience size of each interest identified through the methods above using Facebook’s Ad Manager tool. 
