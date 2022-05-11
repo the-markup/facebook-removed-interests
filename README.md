@@ -14,7 +14,7 @@ In late October 2021, before Facebook removed any interest-targeting options, we
 
 ![AfricanAmericanCulture-suggestions2x](https://user-images.githubusercontent.com/821717/167681695-76554405-2fc4-48ac-a9d9-7677cfd472dc.png)
 Source: Screen capture of Facebook's Ad Manager tool from October 2021.
-
+<p>&nbsp;</p>
 ### Collecting Audience Size:
 
 Between late October 2021 and early January 2022, we found the audience size of each interest identified through the methods above using Facebook’s Ad Manager tool. 
@@ -35,9 +35,8 @@ Between late October 2021 and early January 2022, we found the audience size of 
     <figure>Audience size range for the union of “Diabetes melitus awareness” and “Diabetes melitus type 2 awareness” is 23,300,000 to 27,100,000. The midpoint of this range is 25,200,000.</figure></td>
     
   </tr>
-  <tr><td colspan="2">Source: Screen capture of Facebook's Ad Manager tool from October 2021.</td></tr>
   </table>
-
+Source: Screen capture of Facebook's Ad Manager tool from October 2021.
 
 
 <p>&nbsp;</p>
